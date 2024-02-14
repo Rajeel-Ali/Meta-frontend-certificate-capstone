@@ -1,2 +1,1 @@
-# Meta-frontend-certificate-capstone
-This is the capstone project for meta's front end specialisation build using node JS
+# My capstone project for the Meta Front-End Developer Professional Certificate
