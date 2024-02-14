@@ -8,7 +8,7 @@ import BookingForm from './BookingForm';
 const updateTimes = (availableTimes, date) => {
   const response = fetchAPI(new Date(date));
   return (response.length !== 0) ? response : availableTimes; 
-};
+}; // Semicolon added here
 
 const initializeTimes = initialAvailableTimes => 
   [...initialAvailableTimes, ...fetchAPI(new Date())];
